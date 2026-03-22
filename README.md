@@ -2,7 +2,9 @@
 Hiii! In this project I made a timer for UTBK exercise (Indonesian Final Asessment) 
 
 ## Website link
------------------------
+https://maraulsav.github.io/Timer-Exercise-UTBK/index.html
+<img width="1423" height="776" alt="Screenshot 2026-03-22 at 16 23 47" src="https://github.com/user-attachments/assets/13724d9b-8b3e-4ee4-92c9-7b05fb1ac8b3" />
+
 
 ## Background
 I made this project because I was struggling with my time management especially in "Pengetahuan Kuantitatif" questions.
