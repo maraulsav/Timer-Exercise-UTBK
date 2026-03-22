@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UTBK Timer</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo" > Maritza </a>
+    <nav>
+      <a href="/" class="active"> TIMER</a>
+      <a href="/ReadMe.html" >ReadMe</a>
+      <a href="/About.html" >Kreator</a>
+    </nav>
+  </header>
+
+  <section class="Timers">
+    <div class="container">
+      <h1>UTBK Timer</h1>
+
+      <div>
+        <input type="number" id="questions" placeholder="Q" min="1" step="1" oninput="updateTotalTime()"/>
+        <input type="number" id="minutes" placeholder="Min" min="1" step="1"oninput="updateTotalTime()"/>
+        <input type="number" id="seconds" placeholder="Sec" min="0" max="59" step="1"oninput="updateTotalTime()"/>
+      </div>
+
+      <div id="totalTime">Total Time: 00:00:00</div>
+
+      <div class="buttons">
+        <button class="start" onclick="startSession()">Start</button>
+        <button class="pause" onclick="pauseTimer()">Pause</button>
+        <button class="stop" onclick="stopTimer()">Stop</button>
+      </div>
+
+      <div id="question">Question: 0</div>
+      <div id="timer">00:00</div>
+    </div>
+  </section>
+
+  <audio id="alarm" src="alarm.mp3"></audio>
+  <script src="code.js"></script>
+  <script src="starfall.js"></script>
+</body>
+</html>
