@@ -8,7 +8,8 @@ Hiii! In this project I made a timer for UTBK exercise (Indonesian Final Asessme
 I made this project because I was struggling with my time management especially in "Pengetahuan Kuantitatif" questions.
 There we expected to solve a mathematic question with only one minute. I was frustated because after 9 months there still only like half of the question that I can solve perfectly
 Worse, I can't found an alarm in the internet that can repeat the alarm until some number amount of time in some period. So, basically I don't have a good environment that simulate the pressure.
-I need the pressure to make my brain work and get used to it. So, I made this alarm
+I need the pressure to make my brain work and get used to it. 
+So, I made this alarm
 
 ## Timer Description
 This alarm can produce a sound as much as the number of question that you need. 
